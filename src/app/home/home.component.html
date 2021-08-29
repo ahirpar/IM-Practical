@@ -1,0 +1,6 @@
+<app-header></app-header>
+<div class="inner_page">
+    Here you can start writing using @.
+    <div contenteditable="true" (change)="changecall($event)" id="hightlights_tag" class="highlight_editor" [mention]="items" [mentionConfig]="configs">
+    </div>
+</div>

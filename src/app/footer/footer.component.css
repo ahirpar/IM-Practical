@@ -1,0 +1,7 @@
+.footer {
+    background: #eee;
+    padding: 3px 3px 3px 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

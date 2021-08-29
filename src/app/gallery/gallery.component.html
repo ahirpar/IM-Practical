@@ -1,0 +1,10 @@
+<app-header></app-header>
+<div class="inner_page">
+    <mat-grid-list cols="4" rowHeight="2:1">
+
+        <mat-grid-tile *ngFor="let Items of GalleryData;">
+            <img [src]="Items.url">
+        </mat-grid-tile>
+
+    </mat-grid-list>
+</div>

@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.inner_page {
+    margin: 13px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.show_chips {
+    color: black;
+    background-color: #F4CA49;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 4px 8px 3px 7px;
+    margin: 5px 0 0px 5px;
+    border: 0;
+}
+
+
+/* 
+.mat-form-field-appearance-outline .mat-form-field-outline {
+    border: 2px solid #212121 !important;
+    border-radius: 8x;
+} */

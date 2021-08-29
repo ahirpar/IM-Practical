@@ -1,0 +1,10 @@
+<mat-toolbar>
+    <span (click)="openLink('home')">XYZ Inc.</span>
+    <span class="example-spacer"></span>
+    <button [ngClass]="{'mat-primary':currentroute=='home' || currentroute==''}" (click)="openLink('home')" type="button" mat-button> Home</button>
+    <button [ngClass]="{'mat-primary':currentroute=='gallery'}" type="button" (click)="openLink('gallery')" *ngIf="login_status" color="primary" mat-button>
+        Gallery</button>
+    <button [ngClass]="{'mat-primary':currentroute=='about'}" type="button" (click)="openLink('about')" color="primary" mat-button> About</button>
+    <button type="button" (click)="logout()" *ngIf="login_status" color="accent" mat-button> Logout</button>
+    <button [ngClass]="{'mat-primary':currentroute=='login'}" type="button" (click)="openLink('login')" *ngIf="!login_status" (click)="openLink('login')" mat-button>Login</button>
+</mat-toolbar>
